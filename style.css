@@ -1,0 +1,47 @@
+:root {
+  --Fondo: #aab2bb;
+  --DatosPersonales: #6c757d;
+  --TextColor: #5f5534;
+  --Boton: #8d6569;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 020;
+  padding: 15;
+  background-color: var(--Fondo); 
+}
+.DatosPersonales {
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: var(--DatosPersonales);
+  color: var(--TextColor);
+}
+.boton {
+  color: white;
+  padding: 10px 20px;
+  text-decoration:overline;
+  border-radius: 15px;
+  background-color: var(--Boton);
+}
+.boton:hover {
+  background-color:#472403;
+  text-decoration: underline;
+  color: var(--Boton);
+}
+.MiLogo {
+  width: 1px;
+  height: 1px;
+  margin: 10px;
+  padding: 10px;
+  size: 1px;
+}
+.Formulario {
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 35%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}

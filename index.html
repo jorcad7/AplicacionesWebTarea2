@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="DatosPersonales">
         <h1>Jorge Anibal Cadena Mora</h1>
         <p><strong>Ocupación:</strong> Estudiante</p>
         <p><strong>Ubicacion:</strong> Quito, Pichincha, Ecuador</p>
+    </div>
+    <div>
         <h2>Universidad</h2>
         <p>Estudiante en Uniandes Software</p>
         <h2>Estudios</h2>
@@ -30,6 +33,21 @@
             <li><strong>Celular: </strong>0988002324</li>
             <li><strong>Correo: </strong> jamcomd@gmail.com</li>
         </ul>
+    </div>
+    <div class="MisHobbis">
+    <a class="boton" href="#DatosPersonales">Volver a Datos Personales</a>
+    </div>
+    <div class="MiLogo">
+        <img src="Logo.jpg" alt="Logo">
+    </div>
+    <div class="formulario">
+        <form action="suma.php" method="post">
+           <label for="numero1">Número 1:</label>
+           <input type="number" id="numero1" name="numero1" required>
+           <label for="numero2">Número 2:</label>
+           <input type="number" id="numero2" name="numero2" required>
+           <input type="submit" value="suma"> 
+        </form>
     </div>
 </body>
 </html>
